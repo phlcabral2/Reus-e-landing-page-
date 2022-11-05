@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+font-family: 'Allerta Stencil', sans-serif;
+box-sizing: border-box;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+width: 100%;
+flex-direction: row;
+height: 10vh;
+background-color: white;
+}
+
+header ul{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+width:50%;
+}
+
+header img{
+  width: 318px;
+  height: 134px;
+}
+
+h1 main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  background-color: #BAD690;  
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #BAD690;
+  height:85vh;
+  margin-top: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
+} 
+
+.principal{
+  width: 100%;
+}
+
+main h1{
+    color: black;
+
+}
+
+.login{
+     width: 227px;
+     height: 496px;
+}
+
+.inicio{
+      width: 227px;
+      height:496px
+}
+
+main h1{
+  font-size: 52px;
+  margin-bottom: 8.2%;
+
+}
+
+main h2{
+  font-size: 23px;
+  width:50%;
+  text-align: center;
+  margin-bottom: 5.8%;
+}
+
+.info{
+  width:60%;
+
+}
+
+.imagens{
+  width:40%;
+}
+
+.imagens img{
+  height:400px;
+  width: 182px;
+}
+
+footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #949494;
+  height:5vh;
+
+}
+
+body{
+  background-color: #949494;
+}
